@@ -1,0 +1,50 @@
+/* style.css */
+
+/* Ajoutez ici des styles pour vos boutons, quantités, totaux, etc. */
+.minus-btn, .plus-btn {
+    background-color: #ff99cc; /* Couleur rose clair */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 18px;
+    color: #ff99cc; /* Couleur rose clair */
+}
+
+.item-total {
+    font-size: 18px;
+    color: #ff6699; /* Couleur rose plus foncé */
+}
+
+
+/* Style pour le conteneur d'article */
+.item {
+    border: 1px solid #ff99cc; /* Bordure rose clair */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5; /*  fond gris clair */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styles pour le bouton "J'aime" */
+.like-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #ff66b2; /* Couleur rose doux */
+    cursor: pointer;
+    transition: color 0.3s; /* Ajoute une transition de couleur lors du survol */
+}
+
+/* Styles pour le bouton "J'aime" en état "liked" */
+.like-btn.liked {
+    color: #ff1493; /* Couleur rose vif lorsque "aimé" */
+}
+
